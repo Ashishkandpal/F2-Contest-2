@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Mangament System</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- required two containers -->
+    <div class="main-container">
+      <h1>Library Mangament System</h1>
+      <div class="form-container">
+        <div class="book-name content">
+          <label for="book">Book Name</label>
+          <input class="input-text bookName" type="text" required />
+        </div>
+        <div class="issued-to content">
+          <label for="issued">Issued To</label>
+          <input class="input-text issuerName" type="text" required />
+        </div>
+        <div class="issue-btn content">
+          <button id="btn">Issue Book</button>
+        </div>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <th class="index">ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time</th>
+            <th>Status</th>
+          </thead>
+          <tbody>
+            <tr class="table-row">
+              <td class="table-data1"></td>
+              <td class="table-data2"></td>
+              <td class="table-data3"></td>
+              <td class="table-data4"></td>
+              <td class="table-data5"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
